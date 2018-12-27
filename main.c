@@ -81,7 +81,7 @@ static void start_bitbox() {
     die("%s", "Failed to start Mongoose.");
   }
 }
-
+/*** she add this version*****/
 int main() {
   init_server_name();
   start_bitbox();

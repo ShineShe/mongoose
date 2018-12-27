@@ -711,7 +711,7 @@ void mg_stop(struct mg_context *ctx) {
   }
   free_context(ctx);
 }
-
+/*** she add this version*****/
 struct mg_context *mg_start(void) {
   struct mg_context *ctx;
   int i;
